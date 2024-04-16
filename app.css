@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header .logo{
+    height: 300px;
+    background-image: url(./images/bg-header-desktop.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text{
+    text-align: center;
+    margin-top: -50px;
+}
+.header-text h1{
+    font-size: 44px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.header-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.buttons{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.buttons .btn1{
+    width: 200px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    height: 50px;
+    background: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 30px;
+}
+.buttons .btn2{
+    width: 200px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    height: 50px;
+    background: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 30px;
+}
+
+.snippet{
+    text-align: center;
+    margin-top: 150px;
+}
+.snippet h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.snippet p{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.sect-card{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.sect-card img{
+    margin-left: -100px;
+    margin-right: 150px;
+}
+.search{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.section{
+    margin-top: 60px;
+    padding-right: 200px;
+}
+.section h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 10px;
+}
+
+.clipboard{
+    margin-top: 150px;
+}
+.clipboard h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+.clipboard p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.clipboard img{
+    margin-left: 200px;
+    margin-top: 90px;
+}
+
+.workflow{
+    margin-top: 150px;
+}
+.workflow h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+.workflow p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+}
+.icon-sect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 150px;
+}
+.card{
+    width: 320px;
+    margin-top: 40px;
+}
+.card img{
+    position: relative;
+    left: 43%;
+}
+.card h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+.card p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+}
+
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 150px;
+}
+.clip{
+    margin-top: 100px;
+}
+.clip h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+.clip p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+.buttons .btn1{
+    width: 200px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    height: 50px;
+    background: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 30px;
+}
+.buttons .btn2{
+    width: 200px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    height: 50px;
+    background: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 30px;
+}
+.connection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: hsl(204, 13%, 92%);
+    margin-top: 120px;
+}
+.crd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crd img{
+    width: 70px;
+    height: 70px;
+    margin-left: 150px;
+}
+.part{
+   margin-left: 100px;
+}
+.part p{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+.contact{
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact img{
+    margin-left: 30px;
+}
+
+
+    @media (max-width: 975px){
+        .header-text p{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .buttons{
+            display: flex;
+            flex-direction: column;
+        }
+        .buttons .btn1{
+            width: 250px;
+        }
+        .buttons .btn2{
+            width: 250px;
+            margin-top: 20px;
+        }
+        .sect-card{
+            display: flex;
+            justify-content: space-between;
+        }
+        .sect-card img{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .snippet p{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .sect-card img{
+            width: 350px;
+            height: 350px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .sect-card{
+            display: flex;
+            flex-direction: column;
+        }
+        .sect-card{
+            text-align: center;
+        }
+        .section{
+            padding: 0 40px;
+        }
+        .search{
+            margin-top: 100px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        .clipboard{
+            padding: 0 20px;
+        }
+        .clipboard p{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .clipboard img{
+            width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .workflow{
+            margin-top: 90px;
+            padding: 0 20px;
+        }
+        .icon-sect{
+            display: flex;
+            flex-direction: column;
+            padding: 0 150px;
+        }
+        .service{
+            display: flex;
+            flex-direction: column;
+            padding: 0 150px;
+        }
+        .service img{
+            margin-top: 70px;
+        }
+        .clip{
+            padding: 0 20px;
+            margin-top: 100px;
+        }
+        .clip h1{
+            text-align: center;
+            font-size: 38px;
+            font-weight: 600;
+            color: hsl(210, 10%, 33%);
+            text-align: center;
+        }
+        .clip p{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .connection{
+            display: flex;
+            flex-direction: column;
+        }
+        .crd{
+            display: flex;
+            flex-direction: column;
+        }
+        .crd img{
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .part{
+            margin-top: 50px;
+            margin-left: 0;
+        }
+        .part p{
+            text-align: center;
+        }
+        .contact{
+            margin-top: 40px;
+            margin-right: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 150px;
+            margin-bottom: 40px;
+        }
+        .contact img{
+            margin-left: 0;
+        }
+        
+    }
